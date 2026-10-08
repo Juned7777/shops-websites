@@ -1,0 +1,46 @@
+# ============================================================
+#  NEVER PUSH — secrets
+# ============================================================
+credentials.json
+*.pem
+*.key
+.env
+
+# ============================================================
+#  PRIVATE lead / business data (sheet ka raw data)
+# ============================================================
+biz-data.txt
+business-list.txt
+pending.json
+progress.json
+
+# ============================================================
+#  LOCAL TOOLING (generator, scripts, notes) — repo public hai
+#  isliye sheet data wale output files bhi bahar rahenge
+# ============================================================
+scripts/
+templates/
+node_modules/
+.vscode/
+*.save
+*.py
+*.mjs
+fetch.js
+update.js
+update-links.js
+check-progress.js
+build-site.js
+publish.js
+github-bot.js
+WORKFLOW.md
+preview.html
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# root-level tooling + local data (sites ke andar ki app.js safe rahegi)
+/*.js
+/*.json
+/*.txt
+
