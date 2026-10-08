@@ -5,14 +5,14 @@
 
 :root{
   /* --- brand tokens (per-business) --- */
-  --accent:#a4643a;
-  --accent-deep:#7a4526;
-  --accent-soft:rgba(164,100,58,.10);
-  --accent-key:#d9a56b;
-  --paper:#fbf8f3;
-  --paper-2:#f3ece1;
-  --deep:#1a1712;
-  --deep-2:#231f19;
+  --accent:#5b6b6f;
+  --accent-deep:#42504f;
+  --accent-soft:rgba(91,107,111,.11);
+  --accent-key:#a7bab8;
+  --paper:#f8f9f8;
+  --paper-2:#ecefef;
+  --deep:#141817;
+  --deep-2:#1d2221;
 
   /* --- neutrals --- */
   --ink:#15130f;
@@ -155,7 +155,7 @@ ul,ol{list-style:none}
   background:linear-gradient(140deg,var(--paper-2),var(--accent-soft) 55%,var(--paper-2));
 }
 .frame.img-fail::after,.gal figure.img-fail::after{
-  content:"OB";display:grid;place-items:center;
+  content:"BL";display:grid;place-items:center;
   font-family:var(--font-d);font-size:34px;color:var(--accent-deep);opacity:.45;
   box-shadow:none;background:none;
 }
